@@ -1,0 +1,94 @@
+
+html,
+body{
+    height: 100%;
+    color: #666;
+    font-size: 16px;
+    font-family: "lato" , sans-serif;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.8em;
+
+}
+.pimg1{
+    background-image: url("image1.png");
+    min-height: 100%;
+
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.pimg2{
+    background-image: url("image2.png");
+    min-height: 400px;
+
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.pimg3{
+    background-image: url("image3.png");
+    min-height: 400px;
+
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.textbg{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.section_light{
+    background-color: #f4f4f4 ;
+    color: #666;
+}
+.section_dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+@media only screen and (max-width: 767px) {
+    body {
+      font-size: 14px; /* Adjust font size for better readability on small screens */
+    }
+  
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+      min-height: 300px; /* Adjust the minimum height for the parallax sections on mobile */
+      background-attachment: scroll; /* Disable fixed background attachment on mobile */
+    }
+  
+    .section {
+      padding: 30px 20px; /* Adjust padding for sections on mobile */
+    }
+  
+    .ptext {
+      font-size: 20px; /* Adjust text size in the parallax sections on mobile */
+    }
+  }
+  
